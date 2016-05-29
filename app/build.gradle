@@ -20,7 +20,7 @@ android {
 
     productFlavors {
         dev {
-            buildConfigField("String", "BASE_URL", '"http://10.0.2.2:5000/nsk/slack/"')
+            buildConfigField("String", "BASE_URL", '"http://10.0.2.2:5000/app/slack/"')
         }
     }
 }
